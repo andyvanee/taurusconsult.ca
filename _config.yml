@@ -1,0 +1,14 @@
+title: Taurus Capital
+description: >
+  Taurus offers the creative solutions for completing your capital needs and
+  attaining your financing.
+baseurl: ""
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

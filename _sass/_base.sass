@@ -1,0 +1,60 @@
+@keyframes bodyanimation
+    0%
+        opacity: 0
+    20%
+        opacity: 0
+    100%
+        opacity: 1
+
+.reveal
+    opacity: 1
+    animation: 1.5s bodyanimation
+
+*, *:before, *:after
+    box-sizing: border-box
+
+body, html
+    color: mix(black, white, 87%)
+    background-color: #19374b
+    font-family: Roboto, sans-serif
+    font-size: $base-font-size
+    font-weight: 400
+    line-height: 1.4
+    margin: 0
+
+h1, h2, h3, h4
+    color: $heading-color
+    font-weight: 400
+    margin: 1.5em 0 0.25em
+
+h1
+    margin: 1em 0
+    font-size: 2.75em
+
+h2
+    font-size: 1.5em
+
+h3, h4
+    font-size: 1.15em
+
+p, ul, ol
+    margin-top: 0
+    margin-bottom: 1.5em
+
+ul, ol
+    padding-left: 1.75em
+
+li
+    margin-bottom: 0.75em
+    > ul, ol
+        margin-top: 0.75em
+        margin-bottom: 0
+
+blockquote
+    padding: 1em
+    padding-bottom: 0.1em
+    margin: 1.5em 0
+    background-color: #DEE2E5
+    font-size: 1.75em
+    font-weight: 100
+    text-transform: uppercase

@@ -1,0 +1,89 @@
+$small-container-size: 44em
+
+//
+// Page Layout
+//
+
+.pre-content
+    z-index: 100
+    position: relative
+    @include linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1))
+    height: 40vh
+
+.content
+    z-index: 100
+    position: relative
+    padding: 2em 0 1em
+    padding: 2em 0 1vh
+    background-color: white
+
+.main-content
+    @extend %container
+    max-width: $small-container-size
+    h1:first-child
+        margin-top: 0
+
+
+.intro
+    @extend %container
+    position: relative
+    z-index: 5
+    color: white
+    padding: 15em 2em
+    max-width: 40em
+    min-height: 80vh
+    p
+        text-align: center
+        font-size: 3em
+        font-weight: 100
+        .hero
+            font-size: 2em
+            display: block
+            text-transform: uppercase
+            line-height: 1.1
+            font-weight: 600
+
+.page-wash
+    background-color: white
+    position: fixed
+    width: 100%
+    height: 100%
+    z-index: 20
+    opacity: 0
+    pointer-events: none
+
+.contact-form
+    @extend %container
+    max-width: $small-container-size
+    min-height: 98vh
+    h2
+        padding-top: 3em
+        border-top: 1px solid #bbb
+        margin-top: 3em
+
+
+.contact-wrapper
+    margin: 3em auto 0
+
+#portfolio-map
+    margin-left: -$gutter-width
+    margin-right: -$gutter-width
+    margin-bottom: 2em
+    height: 500px
+    background-color: #ddd
+
+.elevator
+    position: absolute
+    bottom: 0
+    left: 50%
+    padding: 7px 14px
+    font-size: 1.6em
+    font-weight: 100
+    background-color: $button-primary-color
+    border: 1px solid $button-primary-color
+    border-width: 1px 1px 0
+    color: white
+    cursor: pointer
+    &:hover
+        color: $button-primary-color
+        background-color: white
