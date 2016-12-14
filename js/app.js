@@ -17,13 +17,6 @@ $('#elevator').click(function() {
     return false;
 })
 
-// $('#message').show().on('keyup change', function() {
-//     var mailto = 'mailto:test@example.com'
-//     var subject = encodeURIComponent("Comments on Taurus Capital Website");
-//     var body = encodeURIComponent($(this).val());
-//     $("#mailto-link").attr('href', mailto + '?Subject=' + subject + '&body=' + body);
-// });
-
 $('.contact-form-component').each(function() {
     var $form = $('<form>');
     $form.attr('action', 'https://formspree.io/andy@andyvanee.com');
@@ -37,13 +30,3 @@ $('.contact-form-component').each(function() {
     $form.append('<button class="primary" type="submit">Send</button>');
     $(this).append($form);
 });
-
-            // <form action="" method="POST">
-            //     <div class="contact-wrapper">
-            //         <label for="email">Your email</label>
-            //         <input name="email" class="u-full-width" type="email" placeholder="" required="required">
-            //         <label for="message">Your Comments</label>
-            //         <textarea name="message" required="required"></textarea>
-            //         <button class="primary" type="submit">Send</button>
-            //     </div>
-            // </form>
