@@ -30,19 +30,30 @@ $small-container-size: 44em
     z-index: 5
     color: white
     padding: 15em 2em
-    max-width: 40em
+    width: 40em
+    max-width: 100%
     min-height: 80vh
+    overflow: hidden
     p
         text-align: center
-        font-size: 3em
+        font-size: 1.5em
         font-weight: 100
+        @media (min-width: 600px)
+            font-size: 3em
         .hero
             font-size: 2em
             display: block
             text-transform: uppercase
             line-height: 1.1
             font-weight: 600
-
+    a
+        color: white
+        text-decoration: none
+        border: 1px solid white
+        padding: 0.05em 0.7em
+        text-transform: uppercase
+        font-size: 0.7em
+        display: inline-block
 .page-wash
     background-color: white
     position: fixed
@@ -87,3 +98,11 @@ $small-container-size: 44em
     &:hover
         color: $button-primary-color
         background-color: white
+
+.basic-page
+    max-width: 600px
+    margin: 2em auto
+    padding: 2em
+    background-color: white
+    h1
+        margin-top: 0

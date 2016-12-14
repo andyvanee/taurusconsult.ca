@@ -12,26 +12,8 @@
     <div class="reveal">
         <div class="banner"{% if page.image %} style="background-image:url(/images/{{page.image}})"{% endif %}></div>
         <div class="intro container">
-            <p>
-                {% if page.intro %}
-                    {{ page.pre_intro }} <span class="hero">{{ page.intro}}</span>
-                {% else %}
-                    Welcome to <span class="hero">Taurus Capital</span>
-                {% endif %}
-            </p>
-        </div>
-    </div>
-    <div class="pre-content"></div>
-    <div class="content">
-        <div id="main" role="main" class="main-content">
             {{ content }}
         </div>
-        <div id="contact" class="contact-form">
-            <h2>Contact Us</h2>
-            <p>Please send us your question or questions and we will get back to you within 72 hours.</p>
-            <div class="contact-form-component"></div>
-        </div>
-        <div id="elevator" class="elevator">&uarr;</div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="/js/app.js"></script>

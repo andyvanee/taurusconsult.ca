@@ -21,16 +21,17 @@ $logo-width-small: 115px
         text-align: right
 
     li
-        padding: 0.5em 0
+        padding: 0
         display: block
-        @media (min-width: $breakpoint-tablet)
-            display: inline-block
-
         a
             padding: 0.5em 1em
             color: white
             text-decoration: none
             font-weight: 300
+
+        @media (min-width: $breakpoint-tablet)
+            display: inline-block
+            padding: 0.5em 0
 
     .site-title
         display: block
