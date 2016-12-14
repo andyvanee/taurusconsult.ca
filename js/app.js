@@ -30,3 +30,63 @@ $('.contact-form-component').each(function() {
     $form.append('<button class="primary" type="submit">Send</button>');
     $(this).append($form);
 });
+
+$('#portfolio-map').each(function() {
+    mapboxgl.accessToken = "pk.eyJ1IjoiYW5keWFuZHl2YW5lZSIsImEiOiJjaXdwMTZtMTcwMDJkMm9tcTM2dTh2NGVmIn0.Hyp2Y_cV8vTc2zsOwarrVw";
+
+    var geojson = {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Example Location",
+                    "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -114.0866833,
+                        50.9560559
+                    ]
+                }
+            }
+        ]
+    };
+
+    var map = new mapboxgl.Map({
+        container: 'portfolio-map',
+        style: 'mapbox://styles/mapbox/streets-v9',
+        center: [-110.0, 54.48],
+        zoom: 3.5,
+        interactive: false
+    });
+
+    // add markers to map
+    geojson.features.forEach(function(marker) {
+        // create a DOM element for the marker
+        var el = document.createElement('div');
+        el.className = 'marker';
+        el.style.backgroundImage = 'url(/images/placemark.png)';
+        el.style.width = '32px';
+        el.style.height = '47px';
+
+        el.addEventListener('click', function() {
+            $('.marker-detail-container').html(
+                $('<h2>'+marker.properties.title+'</h2><p>'+marker.properties.details+'</p>')
+            ).addClass('active');
+        });
+
+        // add marker to map
+        new mapboxgl.Marker(el, {offset: [-16, -47]})
+            .setLngLat(marker.geometry.coordinates)
+            .addTo(map);
+    });
+
+    $(this).append('<div id="marker-detail" class="marker-detail-container">');
+
+    $('.mapboxgl-marker').css({
+        'cursor': 'pointer',
+        'border-radius': '50%'
+    });
+})
