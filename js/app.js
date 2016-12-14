@@ -56,7 +56,7 @@ $('#portfolio-map').each(function() {
 
     var map = new mapboxgl.Map({
         container: 'portfolio-map',
-        style: 'mapbox://styles/mapbox/streets-v9',
+        style: 'mapbox://styles/andyandyvanee/ciwp18clf006l2ppvliw9auo9',
         center: [-110.0, 54.48],
         zoom: 3.5,
         interactive: false
