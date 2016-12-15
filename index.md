@@ -1,5 +1,6 @@
 ---
 layout: default
+image: DtlaBridge.jpg
 ---
 
 # Taurus Capital

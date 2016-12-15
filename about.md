@@ -2,7 +2,6 @@
 title: About
 permalink: /about/
 layout: default
-image: DtlaBridge.jpg
 pre_intro: Facilitating
 intro: Equity Financing
 ---

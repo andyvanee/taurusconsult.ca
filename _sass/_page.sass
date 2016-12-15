@@ -13,9 +13,10 @@ $small-container-size: 44em
 .content
     z-index: 100
     position: relative
-    padding: 2em 0 1em
-    padding: 2em 0 1vh
+    padding: 2em 0 5em
+    padding: 2em 0 5vh
     background-color: white
+    min-height: 98vh
 
 .main-content
     @extend %container
@@ -29,10 +30,10 @@ $small-container-size: 44em
     position: relative
     z-index: 5
     color: white
-    padding: 15em 2em
+    padding: 17em 0
     width: 40em
     max-width: 100%
-    min-height: 80vh
+    min-height: 75vh
     overflow: hidden
     p
         text-align: center
@@ -66,7 +67,6 @@ $small-container-size: 44em
 .contact-form
     @extend %container
     max-width: $small-container-size
-    min-height: 98vh
     h2
         padding-top: 3em
         border-top: 1px solid #bbb
