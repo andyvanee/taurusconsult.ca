@@ -19,7 +19,7 @@ $('#elevator').click(function() {
 
 $('.contact-form-component').each(function() {
     var $form = $('<form>');
-    $form.attr('action', 'https://formspree.io/andy@andyvanee.com');
+    $form.attr('action', 'https://formspree.io/Dustin@tauruscapital.net');
     $form.attr('method', 'POST');
     $form.append('<input type="text" name="name" placeholder="Your Name">');
     $form.append('<input type="email" name="_replyto" placeholder="Your Email Address">');
