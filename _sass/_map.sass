@@ -1,18 +1,24 @@
 #portfolio-map
     position: relative
-    margin-left: -30em
-    margin-right: -30em
+    margin-left: -2rem
+    margin-right: -2rem
     margin-bottom: 4em
     height: 600px
     max-height: 90vh
     background-color: #ddd
+    @media (min-width: 938px)
+        margin-left: -12em
+        margin-right: -12em
+    @media (min-width: 1380px)
+        margin-left: -30em
+        margin-right: -30em
 
 .marker-detail-container
     display: none
     position: absolute
     bottom: 0
     width: 100%
-    background-color: rgba(0,0,0,0.5)
+    background-color: rgba(0,0,0,0.75)
     color: white
     padding: 0.5em 1em
     font-size: 1.2em
