@@ -485,13 +485,79 @@ $('#portfolio-map').each(function() {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [-123.26660156249999,
+                "coordinates": [
+                    -123.26660156249999,
                     50.54136296522161
                 ]
             },
             "properties": {
                 "name": "British Colombia",
-                "description": "Project Development, 40 Million"
+                "description": "Industrial Supplies, 5M"
+            }
+        }, {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.4065557,
+                    52.1674333
+                ]
+            },
+            "properties": {
+                "name": "Alberta",
+                "description": "Petroleum Industry 50M, Mining Industry 20M, Petroleum Industry 30M, Resort Development 50M"
+            }
+        }, {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.9267107,
+                    49.5303895
+                ]
+            },
+            "properties": {
+                "name": "Ontario",
+                "description": "Project Development 25M"
+            }
+        }, {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3487797,
+                    45.9661457
+                ]
+            },
+            "properties": {
+                "name": "Montana",
+                "description": "Agricultural 50M"
+            }
+        }, {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.0067007,
+                    42.6836859
+                ]
+            },
+            "properties": {
+                "name": "New York",
+                "description": "Project Development 5M, Petroleum Industry 5M"
+            }
+        }, {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -59.6753423,
+                    13.1884729
+                ]
+            },
+            "properties": {
+                "name": "Barbados",
+                "description": "Resort Development 45M"
             }
         }]
     };
