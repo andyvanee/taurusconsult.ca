@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 layout: default
 pre_intro: Facilitating
-intro: Equity Financing
+intro: Debt Financing
 ---
 
 # About Us
@@ -18,6 +18,6 @@ To view a complete list of projects financed by our capital partner, please see 
 
 We target “start up” as well as mature companies, with proven technologies, experienced management teams, and shovel-ready projects with Pro Formas that reflect significant growth along with comprehensive projections that forecast yearly growth. This is used as a baseline to be underwritten using our capital partners’ proprietary investment approach.
 
-## Internal Hedge
+## Protecting
 
 Our capital partners have proven their ability to utilize analytical skills as the basis for how they use financial products, from investment grade insurers, to completely protect their investment in any given deployment. This approach to investing expedites the underwriting process and is less stringent than industry standards.
