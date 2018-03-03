@@ -7,8 +7,8 @@ intro: Taurus Capital
 
 # Contact Us
 
-Canadian head office<br />
-Calgary, AB<br />
+US Head Office<br />
+New York, NY<br />
 1 (212) 796-5894<br />
 <a href="mailto:info@tauruscapital.net">info@tauruscapital.net</a>
 
