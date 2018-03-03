@@ -9,7 +9,7 @@ intro: Taurus Capital
 
 Canadian head office<br />
 Calgary, AB<br />
-587-441-0504<br />
+1 (212) 796-5894<br />
 <a href="mailto:info@tauruscapital.net">info@tauruscapital.net</a>
 
 <div id="contact" class="contact-form">
