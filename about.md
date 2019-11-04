@@ -8,7 +8,7 @@ intro: Debt Financing
 
 # About Us
 
-Taurus Capital; where our principal business is the facilitation of debt financing for companies at various stages of their capital requirement, from start-ups to late stage companies.
+Taurus Consulting; where our principal business is the facilitation of debt financing for companies at various stages of their capital requirement, from start-ups to late stage companies.
 
 Over the past 10 years, our team; consisting of leading international project financiers, have placed over 5 billion dollars of capital into a wide variety of projects including eco and green projects, hotels and hotel resorts, manufacturing, transportation, energy projects, real estate development, oil & gas, coal, copper, gold & diamond transactions, import & export, and many other types of projects in over 30 countries worldwide.
 
